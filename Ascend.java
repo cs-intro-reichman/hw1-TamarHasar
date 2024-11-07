@@ -12,12 +12,12 @@ public class Ascend {
 		int sum = a + b + c;
 
 		int min = Math.min(a, b);
-		int min_final = Math.min(min,c);
+		int minFinal = Math.min(min,c);
 		int max = Math.max(a, b);
-		int max_final = Math.max(max,c);
+		int maxFinal = Math.max(max,c);
 
-		int mid = sum - min_final - max_final;
+		int mid = sum - minFinal - maxFinal;
 
-		System.out.println(min_final + " " + mid + " " + max_final);
+		System.out.println(minFinal + " " + mid + " " + maxFinal);
 	}
 }

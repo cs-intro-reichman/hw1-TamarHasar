@@ -4,6 +4,7 @@ public class FVCalc {
 		int currentValue = Integer.parseInt(args[0]); //invested sum
 		double rate = Double.parseDouble(args[1]);
 		int years = Integer.parseInt(args[2]);
+		
 		//futureValue = currentValue ⋅ (1 + rate)^years
 		double futureValue = currentValue * Math.pow((1 + rate/100) , years);
 
